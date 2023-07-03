@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>LINEBREAK - LOGIN</title>
+  </head>
+  <body>
+
+    <div class="container" style="background-color: #272727;">
+
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Entrar</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Senha" required>
+            </div>
+            <input type="submit" value="Login" class="btn solid" >
+            
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Cadastre-se</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Nome Completo" autocomplete="off" required>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" autocomplete="off"
+              required>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-mobile-alt"></i>
+              <input id="tel" type="tel" placeholder="(xx) xxxx-xxxx" autocomplete="off" maxlength="15"
+              required>
+              
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-calendar"></i>
+              <input id="datatime" type="date" placeholder="00/00/0000" autocomplete="off"
+              maxlength="10" required>
+            </div>
+
+            <div class="input-field">
+              <i class="fa fa-drivers-license-o"></i>
+              <input id="cpf" type="text" placeholder="000.000.000-00" maxlength="14" 
+              autocomplete="off" required>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Senha" autocomplete="off" required>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" type="Confirmpassword" placeholder="Confirmar Senha" autocomplete="off" required>
+            </div>
+            <input type="submit" class="btn" value="Cadastrar" />
+            
+    
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content" >
+            <h3>Novo usuario ?</h3>
+            <p>
+              Clique no botão abaixo para se cadastrar.
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Cadastrar-se
+            </button>
+          </div>
+         
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Já possui cadastro ?</h3>
+            <p>
+              Clique no botão abaixo para entrar.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Entrar
+            </button>
+          </div>         
+        </div>
+      </div>
+
+  </div>
+    <script src="app.js"></script>
+  </body>
+</html>
